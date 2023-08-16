@@ -1,0 +1,12 @@
+/* SKill Block */
+.skill-block{
+    width: 100%;
+    line-height: 150%;
+}
+progress{
+    width: 100%;
+}
+.skill-block__line-icon{
+    width: 40px;
+    height:40px;
+}

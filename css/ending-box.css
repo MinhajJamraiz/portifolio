@@ -1,0 +1,33 @@
+/* Ending Box */
+.extended-bg{
+    width: 100%;
+}
+.ending-box{
+    justify-items: center;
+    align-items: center;
+}
+.ending-box .btn{
+    margin: 0;
+    /* padding: 2rem 0;
+    align-self: center; */
+
+}
+
+ .ending-box .intro-box__email{
+    color: var(--primary-color);
+} 
+.ending-box .intro-box__icon-box{
+    margin: 2rem;
+}
+@media screen and (min-width:768px) {
+    .grid--2x2{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .ending-box .intro-box__btn{
+        padding: 20px;
+        
+        justify-self: center;
+    }
+    
+}

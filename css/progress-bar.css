@@ -1,0 +1,11 @@
+/* Progress Bar */
+.progress-bar{
+    width: 0px;
+    height: 5px;
+    background-color: rgb(13, 13, 14);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: width 0.2s ease;
+}
