@@ -4,16 +4,17 @@
     background-image: url(../images/laptop-bg.png);
     background-attachment: fixed;
     background-size: 100% 100%;
+    .intro-image__text{
+        text-align: left;
+        font-size: 1rem;
+        line-height: 90%;
+        color:black;
+    }
     
 
 }
-.intro-image__text{
-    text-align: left;
-    font-size: 1rem;
-    line-height: 90%;
-    color:black;
 
-}
+
 @media screen and (max-width:767px) {
     .intro-image{
         height: 300px;
