@@ -1,7 +1,8 @@
 /* Block */
 .block{
-    padding: 2rem 0;
+    padding: 2rem 8px;
     width:100%; 
+    box-sizing: border-box;
 
     .block__heading{
         font-style: italic;
@@ -11,6 +12,7 @@
         margin-top: 0.3rem;
         margin-bottom: 0;
     }
+
     
 }
 .block--accent{
