@@ -33,12 +33,20 @@
         color: black;
         font-size: 120%;
     }
+    .intro-box__header{
+        padding: 0 3rem;
+    }
 }
 .intro-box--blue{
     background: var(--primary-color);
     color: var(--secondary-color);
 }
-
+@media screen and (min-width:768px) {
+    .intro-box .intro-box__header{
+        padding: 0 0.5rem;
+    }
+    
+}
 
 
 
